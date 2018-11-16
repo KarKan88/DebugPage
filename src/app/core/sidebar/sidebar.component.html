@@ -1,0 +1,12 @@
+<nav class="col-md-2 d-none d-md-block bg-light sidebar">
+  <div class="sidebar-sticky">
+      <app-side-bar-item></app-side-bar-item>
+    <app-side-bar-item [icon_class]="'icon-profile'" [text]="'Profile'" [route_url]="'profile'"></app-side-bar-item>
+    <span class = "side-bar-h1">Troubleshoot</span>
+    <ul class="nav flex-column">
+      <li *ngFor="let list of my_list" class="nav-item">
+        <app-side-bar-item [icon_class]="list.icon_class" [text]="list.text" [route_url]="list.route_url"></app-side-bar-item>
+      </li>
+    </ul>
+  </div>
+</nav>

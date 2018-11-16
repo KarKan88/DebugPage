@@ -1,1 +1,50 @@
-/* You can add global styles to this file, and also import other style files */
+@font-face {
+    font-family: 'icomoon';
+    src:  url('assets/icons/fonts/icomoon.eot?umcapt');
+    src:  url('assets/icons/fonts/icomoon.eot?umcapt#iefix') format('embedded-opentype'),
+      url('assets/icons/fonts/icomoon.ttf?umcapt') format('truetype'),
+      url('assets/icons/fonts/icomoon.woff?umcapt') format('woff'),
+      url('assets/icons/fonts/icomoon.svg?umcapt#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  [class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+  
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  .icon-plan:before {
+    content: "\e900";
+  }
+  .icon-profile:before {
+    content: "\e901";
+  }
+  .icon-scheduler:before {
+    content: "\e902";
+  }
+  .icon-SMS:before {
+    content: "\e903";
+  }
+  .icon-branding:before {
+    content: "\e904";
+  }
+  .icon-customer:before {
+    content: "\e905";
+  }
+  .icon-outlet:before {
+    content: "\e906";
+  }
+  .icon-search:before {
+    content: "\e986";
+  }
